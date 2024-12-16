@@ -1,0 +1,61 @@
+unit frmContactInfo_u;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, Buttons, Spin;
+
+type
+  TContactInfo = class(TForm)
+    pnlHeader: TPanel;
+    Panel1: TPanel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    ComboBox1: TComboBox;
+    Panel2: TPanel;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Edit5: TEdit;
+    Edit6: TEdit;
+    Panel3: TPanel;
+    Edit7: TEdit;
+    Edit8: TEdit;
+    CheckBox1: TCheckBox;
+    Panel4: TPanel;
+    Button1: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Memo1: TMemo;
+    SpinEdit1: TSpinEdit;
+    Image1: TImage;
+    BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  ContactInfo: TContactInfo;
+
+implementation
+
+{$R *.dfm}
+
+
+begin
+
+
+
+end.

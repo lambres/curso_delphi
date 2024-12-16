@@ -3,13 +3,13 @@ program FirstDemonstration_p;
 uses
   Forms,
   frmFirstDemo_u in 'frmFirstDemo_u.pas' {Form1},
-  frmContactOnfo_u in 'frmContactOnfo_u.pas' {Form2};
+  frmContactInfo_u in 'frmContactInfo_u.pas' {frmContactInformation};
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TfrmContactInformation, frmContactInformation);
   Application.CreateForm(TForm1, Form1);
   Application.Run;
 end.
